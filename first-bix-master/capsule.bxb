@@ -1,0 +1,15 @@
+capsule {
+  id (test31.httpcall)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)//KOREAN
+    target (bixby-mobile-en-US)
+    {enabled (false)}
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+}
